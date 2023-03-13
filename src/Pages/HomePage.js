@@ -1,9 +1,14 @@
 import React from 'react';
 
-import Buttom from '../components/Common/Button';
+import CounterContainer from '../components/misc/CounterContainer';
 
 const MainPage = () => {
-    return <h1>HomePage</h1>
+    return (
+    <React.Fragment>
+        <h1>HomePage</h1>
+        <CounterContainer />
+    </React.Fragment>
+    )
 }
 
 export default MainPage;
