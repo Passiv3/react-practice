@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
-import TaskList from './components/TaskList';
+import HomePage from './Pages/HomePage';
+import Button from './components/Common/Button';
 
 function App() {
   return (
-    <TaskList />
+    <HomePage></HomePage>
   );
 }
 
