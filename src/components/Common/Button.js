@@ -2,8 +2,8 @@ import React from 'react';
 
 import './Button.css';
 
-const Button = ({label, onClick}) =>{
-    return <button className = 'custom-button' onClick = {onClick}>{label}</button>
+const Button = props =>{
+    return <button className = 'custom-button' onClick = {props.onClick}>{props.label}</button>
 }
 
 export default Button;
